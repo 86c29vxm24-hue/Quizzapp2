@@ -1,0 +1,78 @@
+body { 
+    margin: 0; 
+    background-color: aliceblue !important;
+     
+}
+
+
+.container { 
+    background-color: aliceblue !important;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+
+}
+
+.quizz-card {
+    width: 30rem;
+}
+
+.quizz-answer:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1)  
+}
+
+.bg-succes, .bg-danger {
+    color: white;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+/*.finish-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}*/
+
+.end-screen {
+    display: flex;               /* Elemente nebeneinander */
+    align-items: center;         /* Vertikal zentrieren */
+    gap: 32px;                   /* Abstand zwischen Bild & Text */
+    padding: 20px;
+}
+
+.end-img {
+    width: 140px;                /* feste Größe für das Bild */
+    height: auto;
+}
+
+.end-text {
+    font-size: 18px;             /* besser lesbar */
+}
+
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 200px;
+    object-fit: cover;           /* Bild zuschneiden, um den Container zu füllen */
+}
+.btn-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
